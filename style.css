@@ -151,29 +151,25 @@ section{
     font-size: 2rem;
 }
 
-
 .btn-group {
     display: flex;
-    gap:1rem;
-
+    gap: 1rem;
 }
 
 .btn {
-    border-radius:  3rem;
+    border-radius: 3rem;
     padding: 0.5rem 1.5rem;
-    border:2px solid black;
+    border: 2px solid black;
     cursor: pointer;
     font-weight: 500;
     text-wrap: nowrap;
     transition: 0.2s ease-in-out;
 }
 
-
 .btn:hover {
     background-color: black;
     color: white;
 }
-
 .socials {
     display:flex;
     gap:2rem
@@ -465,6 +461,11 @@ footer ul li a{
         width:70vw
     } */
 
+    .btn {
+        padding: 0.4rem 1rem; /* Reduce padding */
+        font-size: 0.9rem;    /* Reduce font size */
+    }
+
 
 
 }
@@ -515,4 +516,11 @@ footer ul li a{
         gap:1rem;
     }
 
+}
+
+@media (max-width: 480px) {
+    .btn {
+        padding: 0.3rem 0.8rem; /* Further reduce padding */
+        font-size: 0.8rem;      /* Further reduce font size */
+    }
 }
