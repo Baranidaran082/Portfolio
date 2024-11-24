@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  />
+  
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>Baranidaran</span></a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <button class="visit-btn">Visit GitHub</button>
+    </header>
+
+
+    <!-- section1 -->
+    <section class="about" id="about">
+      <div class="about-container">
+        <img src="./Baranidaran.jpeg" alt="" />
+
+        <div class="info-box">
+        <div class="text">
+          <h3>Hi I'm</h3>
+          <h1>Baranidaran</h1>
+          <span>Full stack developer</span>
+        </div>
+
+
+        <div class="btn-group">
+          <a href="./baranidaran resume.pdf" download>
+            <div class="btn">Download CV</div>
+          </a>
+            <div class="btn" >
+              <a href="#contact" style="color: white;">Contact</a>
+            </div>
+            
+      </div>
+
+
+
+      <div class="socials">
+        <a href="https://github.com/Baranidaran082" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/baranidaran-s-549b872a1/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+      
+
+    </div>
+    </section>
+
+
+
+<!-- section2 -->
+<section id="experience" class="experience">
+  <h2 class="section-title">Experience & Certifications</h2>
+  <div class="experience-info">
+    <div class="grid">
+      <div class="grid-card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <span>Full Stack developer</span><br>
+        <p>Full Stack Developer with 6 months of experience with comprehensive expertise in HTML, CSS, JavaScript, MySQL,
+          Django, and Python. Backed by AWS certification and hands-on experience from an internship.
+        </p>
+      </div>
+      <div class="grid-card">
+        <i class="fa-solid fa-certificate"></i>
+        <span>LeSuccess Certification Program</span><br>
+        <p>Successfully completed a Full Stack Development certification program at Lesuccess. Acquired expertise in front-end and back-end development, Python programming, API creation, database management, and deploying applications on the AWS cloud.</p>
+      </div>
+      <div class="grid-card">
+        <i class="fa-brands fa-aws"></i>
+        <span>AWS Developer Associate</span><br>
+        <p>Earned the AWS Certified Developer - Associate certification, demonstrating skills in developing and maintaining AWS applications. Experienced in deploying, debugging, and integrating AWS cloud-based solutions, using services like Lambda, DynamoDB, S3, and IAM to build scalable, reliable systems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+    <!-- section 3 -->
+     <section id="projects" class="projects">
+      <h2 class="section-title">Recent Projects</h2>
+        <div class="projects-grid">
+
+
+
+          <div class="project-card">
+            <img src="./task_master.webp" alt="">
+            <h3>TaskMaster</h3>
+            <p>TaskMaster is a streamlined and effective task management web application developed with the Django framework.</p>
+            <div class="btn-group">
+              <div class="btn">Github repo</div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="./1_eZ2aiKYuu_AqdRsS0XrJkg.png" alt="">
+            <h3>API Gateway Integration with Lambda Functions(AWS)</h3>
+            <p> Developed an API Gateway to trigger Lambda functions for GET and POST requests.</p>
+            <div class="btn-group">
+              <div class="btn">Github repo</div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="./s3.png" alt="">
+            <h3>Data Management for S3(AWS)</h3>
+            <p>Developed a strategy to move data across different storage classes based on access patterns and frequency.
+            </p>
+            <div class="btn-group">
+              <div class="btn">Github repo</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- contact section -->
+      <section id="contact" class="contact">
+        <div class="input-box">
+          <h2 class="section-title">Contact Me</h2>
+          <p class="contact-description">
+            Have any questions or want to collaborate? Fill out the form below, and I'll get back to you as soon as possible.
+          </p>
+      
+          <div class="input">
+            <input type="text" placeholder="Name">
+            <i class="fa-solid fa-user"></i>
+          </div>
+      
+          <div class="input">
+            <input type="email" placeholder="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+      
+          <div class="input">
+            <input type="tel" placeholder="Phone Number">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+      
+      
+          <button class="btn">Submit</button>
+        </div>
+      </section>
+      
+
+
+      <!-- footer section -->
+       <footer>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#projects">P rojects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <p class="copyright">&copy; 2024 | All rights reserved | Baranidaran</p>
+
+       </footer>
+       
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
