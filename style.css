@@ -170,6 +170,9 @@ section{
     background-color: black;
     color: white;
 }
+
+
+
 .socials {
     display:flex;
     gap:2rem
@@ -522,5 +525,12 @@ footer ul li a{
     .btn {
         padding: 0.3rem 0.8rem; /* Further reduce padding */
         font-size: 0.8rem;      /* Further reduce font size */
+    }
+    .info-box h1 {
+        font-size: 2.5rem; /* Reduce header font size further */
+    }
+
+    .info-box span {
+        font-size: 1.2rem; /* Reduce subtitle font size further */
     }
 }
