@@ -282,7 +282,8 @@ transition: 0.2s ease-in-out;
 }
 
 .project-card img{
-    width:20vw;
+    width: 100%;
+    max-width: 300px; /* Limit the size on larger screens */
     border-radius: 1rem;
 }
 
@@ -517,6 +518,13 @@ footer ul li a{
     }
     footer ul{
         gap:1rem;
+    }
+    .project-card {
+        padding: 1rem;
+    }
+
+    .project-card img {
+        width: 100%;
     }
 
 }
